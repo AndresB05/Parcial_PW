@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -164,3 +165,171 @@ body{
 }
 
 
+=======
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ladoIzquierdo{
+    width: 44.15vw;
+    height: 100vh;
+    background-color: #1aebb6;
+}
+
+.ladoDerecho{
+    width: 55.85vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.container-form {
+    
+    position: absolute;
+    display: flex;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);   height: 600px;
+    width: 900px;
+    transition: all 1s ease;
+
+}
+
+.information{
+    width: 30vw;
+    height: 72vh;
+    background-color: #1aebb6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+.information {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #1aebb6;
+}
+
+.info-childs {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.info-childs h2 {
+    font-size: 2.5rem;
+}
+
+.info-childs p {
+    margin-top: 100px;
+    margin: 15px 0;
+}
+
+.form-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+
+    background-color: white;
+}
+
+.form-information .help{
+    position: absolute;
+    margin-bottom: 570px;
+    margin-left: 150px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block; /* Cambiar a formato en línea */
+}
+
+
+.form-information-childs {
+    padding: 0 30px;
+}
+.form-information-childs h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-information-childs h2 {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño */
+    margin-bottom: 35px; /* Desplazamiento hacia arriba */
+}
+
+.form-information-childs p {
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+.form {
+    margin: 10px 0 0 0;
+    
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    width: 380px;
+}
+
+.form label input {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border:solid thin rgb(233, 233, 233);
+    color: #333
+
+}
+
+.form input[type="submit"] {
+    font-weight: 1000;
+    background-color: #1aebb6;
+    border-radius: 5px ;
+    border: none;
+    padding: 13px 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 350px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #15b18a;
+}
+
+.container-form .form input[type="submit"] {
+    margin-top: 80px;
+}
+
+.form .remember{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+    margin-left: 127px;
+} 
+
+.form .password{
+    margin-bottom: 10px;
+
+}
+
+
+>>>>>>> a776a4452aaae495644bec06cd74b3a4c153bf01
